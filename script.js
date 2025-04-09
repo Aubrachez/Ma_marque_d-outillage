@@ -10,17 +10,28 @@ let resultats = {
     "DeWalt": 0
 };
 const BASE_URL = "https://aubrachez.github.io/Ma_marque_d-outillage/";
-// Charger les questions
+// Charger les questions dans un ordre aléatoire
 fetch('questions.json')
     .then(response => response.json())
     .then(data => {
-        questions = data;
+        // Mélanger aléatoirement le tableau de questions
+        questions = shuffleArray(data);
         updateQuestion();
     })
     .catch(error => {
         console.error('Erreur de chargement des questions:', error);
         document.getElementById('question').textContent = "Erreur de chargement du questionnaire";
     });
+
+// Fonction pour mélanger aléatoirement un tableau (algorithme de Fisher-Yates)
+function shuffleArray(array) {
+    const newArray = [...array]; // Crée une copie du tableau original
+    for (let i = newArray.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [newArray[i], newArray[j]] = [newArray[j], newArray[i]]; // Échange les éléments
+    }
+    return newArray;
+}
 
 // Mettre à jour l'affichage de la question
 function updateQuestion() {
