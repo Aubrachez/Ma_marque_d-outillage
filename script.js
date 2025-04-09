@@ -119,7 +119,7 @@ function getDescriptionMarque(marque) {
         "Festool": "L’élite du chantier. Tu veux le meilleur, t’as du goût, et tu touches pas un outil qui dépasse d’un millimètre. T’es classe, net, précis.",
         "Bosch Pro": "Le cerveau du groupe. Tu réfléchis, t’optimises, t’aimes l’allemand bien fait. Ta perceuse a plus de fonctions que ton téléphone.",
         "Ryobi": "Le roi du pratique. T’as pas besoin de 1000W pour faire un tabouret. T’es cool, efficace, et tu kiffes la vie à ton rythme.",
-        "DeWalt": "VTu veux du jaune, de l’énergie et des pirates. T’es cash, parfois trash, mais jamais boring. Ta visseuse ? Un missile. Toi ? Un personnage."
+        "DeWalt": "Tu veux du jaune, de l’énergie et des pirates. T’es cash, parfois trash, mais jamais boring. Ta visseuse ? Un missile. Toi ? Un personnage."
     };
     return descriptions[marque] || "Cette marque correspond bien à votre profil d'utilisateur.";
 }
