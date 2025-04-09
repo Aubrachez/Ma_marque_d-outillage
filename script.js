@@ -9,7 +9,7 @@ let resultats = {
     "Ryobi": 0,
     "DeWalt": 0
 };
-
+const BASE_URL = "https://aubrachez.github.io/Ma_marque_d-outillage/";
 // Charger les questions
 fetch('questions.json')
     .then(response => response.json())
@@ -90,7 +90,7 @@ function afficherResultats() {
         resultatsHTML += `
             <div class="result-container" style="margin-bottom: 40px;">
                 <div class="image-container">
-                    <img src="images/${marque.toLowerCase().replace(' ', '-')}.png" alt="${marque}">
+                    <img src="${BASE_URL}images/${marque.toLowerCase()}.png" alt="${marque}">
                 </div>
                 <div class="text-container">
                     <h3>${marque}</h3>
