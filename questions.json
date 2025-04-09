@@ -1,52 +1,322 @@
 [
-    { "question": "J'aime lire des mangas", "marque": "Makita" },
-    { "question": "J'aime les films Marvel et DC Comics", "marque": "Milwaukee" },
-    { "question": "J'acheterais bien une Lexus ce sont d'excellentes voitures fiables et luxueuses", "marque": "Festool" },
-    { "question": "Ma voiture de rêve est un gros pick-up 4x4", "marque": "Milwaukee" },
-    { "question": "Je trouve que la fidélité est importante en amitié ou dans mon couple", "marque": "Makita/Milwaukee" },
-    { "question": "J'aime toujours montrer mes nouveaux achats d'outils à mes collègues pour les épater", "marque": "Milwaukee" },
-    { "question": "J'aime à penser que je suis unique", "marque": "Festool" },
-    { "question": "Je pense que les Etats-Unis ont trop influencé notre culture", "marque": "Festool/Makita" },
-    { "question": "L'industrie allemande est la meilleure et surpasse largement l'industrie américaine ou japonaise", "marque": "Festool/Bosch Pro" },
-    { "question": "Le rêve américain, partir de rien et devenir riche, me fait rêver", "marque": "Milwaukee" },
-    { "question": "Ma couleur préférée est le bleu", "marque": "Makita" },
-    { "question": "Ma couleur préférée est le rouge", "marque": "Milwaukee" },
-    { "question": "Ma couleur préférée est le vert", "marque": "Ryobi" },
-    { "question": "Ma couleur préférée est le jaune", "marque": "DeWalt" },
-    { "question": "Le plus important à mes yeux c'est d'en avoir pour mon argent", "marque": "Ryobi" },
-    { "question": "Je pense que l'important ce n'est pas la voiture, c'est le pilote", "marque": "Ryobi" },
-    { "question": "Si j'étais un héro je serais un ninja plutôt qu'un chevalier ou un pirate", "marque": "Makita" },
-    { "question": "Si j'étais un héro je serais un chevalier plutôt qu'un ninja ou un pirate", "marque": "Milwaukee" },
-    { "question": "Si j'étais un héro je serais un pirate plutôt qu'un chevalier ou un ninja", "marque": "DeWalt" },
-    { "question": "Je pense être une personne innovante qui propose des solutions nouvelles", "marque": "Bosch Pro" },
-    { "question": "Je suis une personne qui a de l'humour pince sans rire", "marque": "Makita" },
-    { "question": "Si je devais acquérir une voiture de sport ce serait une McLaren je n'aime pas les voitures italiennes", "marque": "DeWalt" },
-    { "question": "Je trouve que le plus important c'est que ma femme soit belle pour la présenter à mon entourage", "marque": "Milwaukee" },
-    { "question": "J'ai plutot un humour un peu lourd et gras", "marque": "Milwaukee" },
-    { "question": "Le plus important c'est que ma femme soit intelligente et aie de la conversation", "marque": "Bosch Pro" },
-    { "question": "J'aime entretenir ma femme", "marque": "Milwaukee" },
-    { "question": "Je n'aime pas les femmes", "marque": "Festool" },
-    { "question": "Mes amis disent de moi que je sui un original", "marque": "Festool" },
-    { "question": "Je pense que tout n'était pas à jeter dans le national-socialisme", "marque": "Bosch Pro" },
-    { "question": "J'aime m'entourer de gens qui réussissent comme moi", "marque": "Milwaukee" },
-    { "question": "Mes amis disent de moi que je suis poli et distingué", "marque": "Makita" },
-    { "question": "Je trouve que le plus important c'est la puissance. Pas la fiabilité ni le coût.", "marque": "Milwaukee" },
-    { "question": "J'aime les marques très spécialisées pas celles qui font de tout", "marque": "Festool" },
-    { "question": "Investir beaucoup d'argent pour avoir le meilleur ne me dérange pas", "marque": "Festool" },
-    { "question": "Je trouve que le plus important c'est le coût. Pas la fiabilité ni la puissance.", "marque": "Ryobi" },
-    { "question": "Je trouve que le plus important c'est la fiabilité.  Pas la puissance ni le coût.", "marque": "Makita" },
-    { "question": "Je trouve qu'on a pas toujours besoin de 1000 Watt 18V et un couple de moteur V8 pour fabriquer un tabouret le Dimanche", "marque": "Ryobi" },
-    { "question": "Tant pis si mes amis se moquent de moi parce qu'ils trouvent ma femme moche et bête tant que je l'aime c'est le pricipal", "marque": "Ryobi" },
-    { "question": "J'aime que l'on me remarque et qu'on dise de moi que je suis génial", "marque": "Milwaukee" },
-    { "question": "J'aime qu'on dise de moi que je suis intelligent", "marque": "Bosch Pro" },
-    { "question": "Etre infidèle est impensable pour moi", "marque": "DeWalt/Makita" },
-    { "question": "Mon alcool préféré est le whisky coca", "marque": "Milwaukee" },
-    { "question": "Je ne bois jamais d'alcool après le travail", "marque": "Festool" },
-    { "question": "J'achète des boissons energisantes régulièrement", "marque": "DeWalt" },
-    { "question": "J'aime bien m'arrêter à la pompe à essence en revenant du travail pour acheter une 50 de Jupiler", "marque": "Milwaukee" },
-    { "question": "J'essaie parfois les nouvelles boissons à la boutique de la pompe à essence", "marque": "Makita" },
-    { "question": "J'ai déjà payé pour du sexe. Je le raconte parfois comme anecdote.", "marque": "DeWalt/Milwaukee" },
-    { "question": "Les sports moteurs ne m'intéressent pas du tout", "marque": "Bosch Pro" },
-    { "question": "Je trouve que la compétition de NASCAR est plus intéressante que la Formule 1", "marque": "Milwaukee" },
-    { "question": "Je trouve que la compétition de Formule 1 est plus intéressante que la NASCAR", "marque": "DeWalt" }
-]
+    {
+      "question": "Je pense être une personne innovante qui propose des solutions nouvelles",
+      "marque": "Bosch Pro"
+    },
+    {
+      "question": "Le plus important c'est que ma femme soit intelligente et aie de la conversation",
+      "marque": "Bosch Pro"
+    },
+    {
+      "question": "Je pense que tout n'était pas à jeter dans le national-socialisme",
+      "marque": "Bosch Pro"
+    },
+    {
+      "question": "Les sports moteurs ne m'intéressent pas du tout",
+      "marque": "Bosch Pro"
+    },
+    {
+      "question": "Je suis une personne discrète mais ce n'est pas pour autant que je suis atonique",
+      "marque": "Bosch Pro"
+    },
+    {
+      "question": "J'aime les alcools rafinés même si je bois le plus souvent de la bière",
+      "marque": "Bosch Pro"
+    },
+    {
+      "question": "Je ne consomme declopes ni cigarttes électroniques",
+      "marque": "Bosch Pro"
+    },
+    {
+      "question": "Je trouve qu'il y a un déclin dans l'éducation de nos enfants",
+      "marque": "Bosch Pro"
+    },
+    {
+      "question": "Il m'arrive de lire les manuels d'utilisation quand j'achète un nouvel outil",
+      "marque": "Bosch Pro"
+    },
+    {
+      "question": "Je ne regarde pas beaucoup les programmes TV",
+      "marque": "Bosch Pro"
+    },
+    {
+      "question": "Ma hantise est qu'un client nuise à ma réputation en disant que je travaille mal",
+      "marque": "Bosch Pro"
+    },
+    {
+      "question": "J'aime qu'on dise de moi que je suis intelligent",
+      "marque": "Bosch Pro"
+    },
+    {
+      "question": "Ma couleur préférée est le jaune",
+      "marque": "DeWalt"
+    },
+    {
+      "question": "Si j'étais un héro je serais un pirate plutôt qu'un chevalier ou un ninja",
+      "marque": "DeWalt"
+    },
+    {
+      "question": "Si je devais acquérir une voiture de sport ce serait une McLaren je n'aime pas les voitures italiennes",
+      "marque": "DeWalt"
+    },
+    {
+      "question": "J'achète des boissons energisantes régulièrement",
+      "marque": "DeWalt"
+    },
+    {
+      "question": "Je trouve que la compétition de Formule 1 est plus intéressante que la NASCAR",
+      "marque": "DeWalt"
+    },
+    {
+      "question": "Les gadgets ne m'intéressent pas c'est encombrant",
+      "marque": "DeWalt"
+    },
+    {
+      "question": "Je suis jeune et dynamique",
+      "marque": "DeWalt"
+    },
+    {
+      "question": "La publicité influence beaucoup mes achats",
+      "marque": "DeWalt"
+    },
+    {
+      "question": "A l'école je n'étais pas le plus populaire du lycée mais je n'étais pas non plus impopulaire",
+      "marque": "DeWalt"
+    },
+    {
+      "question": "Je suis parfois un peu brouillon et je ne suis pas l'as du rangement",
+      "marque": "DeWalt"
+    },
+    {
+      "question": "Je pense que les femmes sont attirées par les belles voitures",
+      "marque": "DeWalt"
+    },
+    {
+      "question": "Mon alcool préféré est la bière pils des grandes compagnies",
+      "marque": "DeWalt"
+    },
+    {
+      "question": "Etre infidèle est impensable pour moi",
+      "marque": "DeWalt/Makita"
+    },
+    {
+      "question": "Je vais à la salle de sport régulièrement pour voir un beau corps",
+      "marque": "DeWalt/Milwaukee"
+    },
+    {
+      "question": "J'ai déjà payé pour du sexe. Je le raconte parfois comme anecdote.",
+      "marque": "DeWalt/Milwaukee"
+    },
+    {
+      "question": "J'acheterais bien une Lexus ce sont d'excellentes voitures fiables et luxueuses",
+      "marque": "Festool"
+    },
+    {
+      "question": "J'aime à penser que je suis unique",
+      "marque": "Festool"
+    },
+    {
+      "question": "Je n'aime pas les femmes",
+      "marque": "Festool"
+    },
+    {
+      "question": "Mes amis disent de moi que je suis un original",
+      "marque": "Festool"
+    },
+    {
+      "question": "J'aime les marques très spécialisées pas celles qui font de tout",
+      "marque": "Festool"
+    },
+    {
+      "question": "Investir beaucoup d'argent pour avoir le meilleur ne me dérange pas",
+      "marque": "Festool"
+    },
+    {
+      "question": "Je ne bois jamais d'alcool après le travail",
+      "marque": "Festool"
+    },
+    {
+      "question": "Mon alcool préféré est la bière des petites brasseries artisanales",
+      "marque": "Festool"
+    },
+    {
+      "question": "L'industrie allemande est la meilleure et surpasse largement l'industrie américaine ou japonaise",
+      "marque": "Festool/Bosch Pro"
+    },
+    {
+      "question": "Je pense que la multiculturalité est un atout dans le secteur de la construction",
+      "marque": "Festool/Bosch Pro"
+    },
+    {
+      "question": "Je dépense sans compter quand il s'agit d'obtenir la meilleure qualité",
+      "marque": "Festool"
+    },
+    {
+      "question": "L'important pour moi ce n'est pas de connaitre beaucoup de gens c'est d'avoir 2-3 amis sur lequels je peux compter",
+      "marque": "Festool"
+    },
+    {
+      "question": "Je suis un peu perfectionniste j'aime que tout soit rangé et propre",
+      "marque": "Festool"
+    },
+    {
+      "question": "Je pense que les Etats-Unis ont trop influencé notre culture",
+      "marque": "Festool/Makita"
+    },
+    {
+      "question": "J'aime lire des mangas",
+      "marque": "Makita"
+    },
+    {
+      "question": "Ma couleur préférée est le bleu",
+      "marque": "Makita"
+    },
+    {
+      "question": "Si j'étais un héro je serais un ninja plutôt qu'un chevalier ou un pirate",
+      "marque": "Makita"
+    },
+    {
+      "question": "Je suis une personne qui a de l'humour pince sans rire",
+      "marque": "Makita"
+    },
+    {
+      "question": "Mes amis disent de moi que je suis poli et distingué",
+      "marque": "Makita"
+    },
+    {
+      "question": "Je trouve que le plus important c'est la fiabilité. Pas la puissance ni le coût.",
+      "marque": "Makita"
+    },
+    {
+      "question": "J'essaie parfois les nouvelles boissons à la boutique de la pompe à essence",
+      "marque": "Makita"
+    },
+    {
+      "question": "Je trouve que les gens de mon ethnie sont les meilleurs travailleurs",
+      "marque": "Makita"
+    },
+    {
+      "question": "Je ne suis pas très ouvert à l'immigration",
+      "marque": "Makita"
+    },
+    {
+      "question": "Je trouve que la fidélité est importante en amitié ou dans mon couple",
+      "marque": "Makita/Milwaukee"
+    },
+    {
+      "question": "J'aime les gadgets rigolos",
+      "marque": "Makita/Milwaukee"
+    },
+    {
+      "question": "Jamais je n'engagerais un homme qui travaille avec du Parkside",
+      "marque": "Makita/Milwaukee"
+    },
+    {
+      "question": "J'aime les films Marvel et DC Comics",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "Ma voiture de rêve est un gros pick-up 4x4",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "J'aime toujours montrer mes nouveaux achats d'outils à mes collègues pour les épater",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "Le rêve américain, partir de rien et devenir riche, me fait rêver",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "Ma couleur préférée est le rouge",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "Si j'étais un héro je serais un chevalier plutôt qu'un ninja ou un pirate",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "Je trouve que le plus important c'est que ma femme soit belle pour la présenter à mon entourage",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "J'ai plutot un humour un peu lourd et gras",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "J'aime entretenir ma femme",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "J'aime m'entourer de gens qui réussissent comme moi",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "Je trouve que le plus important c'est la puissance. Pas la fiabilité ni le coût.",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "J'aime que l'on me remarque et qu'on dise de moi que je suis génial",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "Mon alcool préféré est le whisky coca",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "J'aime bien m'arrêter à la pompe à essence en revenant du travail pour prendre une cannette de JB, William Lawson,…",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "Je trouve que la compétition de NASCAR est plus intéressante que la Formule 1",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "Ce qui compte le plus c'est de terrasser mes concurents",
+      "marque": "Milwaukee"
+    },
+    {
+      "question": "Ma couleur préférée est le vert",
+      "marque": "Ryobi"
+    },
+    {
+      "question": "Le plus important à mes yeux c'est d'en avoir pour mon argent",
+      "marque": "Ryobi"
+    },
+    {
+      "question": "Je pense que l'important ce n'est pas la voiture, c'est le pilote",
+      "marque": "Ryobi"
+    },
+    {
+      "question": "Je trouve que le plus important c'est le coût. Pas la fiabilité ni la puissance.",
+      "marque": "Ryobi"
+    },
+    {
+      "question": "Je trouve qu'on a pas toujours besoin de 1000 Watt 18V et un couple de moteur V8 pour fabriquer un tabouret le Dimanche",
+      "marque": "Ryobi"
+    },
+    {
+      "question": "Tant pis si mes amis se moquent de moi parce qu'ils trouvent ma femme moche et bête tant que je l'aime c'est le principal",
+      "marque": "Ryobi"
+    },
+    {
+      "question": "J'ai une voiture fonctionnelle mais elle a déjà quelques années et un paquet de kilomètres",
+      "marque": "Ryobi"
+    },
+    {
+      "question": "Je ne suis pas du genre à me vanter",
+      "marque": "Ryobi"
+    },
+    {
+      "question": "J'ai un prénom original ou qui n'est pas courant dans le pays dans lequel je vis",
+      "marque": "Ryobi"
+    },
+    {
+      "question": "La politique ne m'intéresse pas. Si on m'en parle j'acquiesse.",
+      "marque": "Ryobi"
+    },
+    {
+      "question": "Je pense que les cheveux sont faits pour exprimer une originalité",
+      "marque": "Ryobi"
+    }
+  ]
