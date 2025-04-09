@@ -101,7 +101,7 @@ function afficherResultats() {
         `;
     });
     
-    resultatsHTML += `<button id="restartBtn" style="display: block; margin: 30px auto 0;">Recommencer le test</button>`;
+    resultatsHTML += `<button id="restartBtn" style="display: block; margin: 30px auto 0;">Recommencer le test</button><br><br><br>`;
     
     container.innerHTML = resultatsHTML;
     
